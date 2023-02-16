@@ -2,22 +2,22 @@ body {
     background-color: silver;
     padding: 0;
     margin: 0;
-    background: url(./img/fon.jpg);
+    background: url(./img/fon2.jpg);
 }
 
 .wrapper {
     width: 800px;
-    background-color: darkcyan;
+    background-color: rgb(102, 139, 0);
     margin: 0 auto;
 }
 
 h1 {
-    color: brown;
+    color: rgb(129, 0, 0);
     text-align: center;
 }
 
 header {
-    background-color:coral;
+    background-color:rgb(100, 255, 80)
     padding: 10px;
     border: 3px solid black;
     border-radius: 5px;
@@ -28,12 +28,16 @@ main {
     overflow: hidden;
 }
 
-img {
+.image1 {
     float: left;
     margin-right: 10px;
 }
 
 
+.image2 {
+    float: right;
+    margin-right: 10px;
+}
 
 nav {
     display: flex;
@@ -46,4 +50,11 @@ a {
 
 p {
     font-family: 'Pacifico', cursive;
+}
+
+ul2 {
+    color:whitesmoke;
+    float: right;
+    margin-right: 10px;
+    border: 3px solid whitesmoke;
 }
