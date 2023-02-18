@@ -52,9 +52,11 @@ p {
     font-family: 'Pacifico', cursive;
 }
 
-h5 {
-    color:whitesmoke;
-    float: right;
-    margin-right: 10px;
-    border: 3px solid whitesmoke;
+footer {
+    text-align: center;
+    background-color: yellow;
+    border: 3px solid brown;
+    border-radius: 20px;
+    padding: 20px;
+    color:brown;
 }
