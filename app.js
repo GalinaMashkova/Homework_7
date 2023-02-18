@@ -12,6 +12,7 @@ function go()
     
     document. getElementById('out'). innerText = str;
     document. getElementById('name'). value = ""
+    document. getElementById('age'). value = ""
     console.log(`Привет ${name}, вам ${age}, Вам можно проголосовать!`);
 }
 
@@ -34,5 +35,6 @@ function send()
         str = str + 'Ваш голос не принят'
     }
     document.getElementById('out1').innerText = str;
+    document. getElementById('number'). value = ""
     console.log(`${str}`);           
 }
